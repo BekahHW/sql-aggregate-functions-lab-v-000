@@ -23,5 +23,5 @@ end
 def average_gpa_for_9th_grade
   "SELECT AVG(gpa)
   FROM students
-  where 9;"
+  WHERE 9;"
 end
