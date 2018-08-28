@@ -2,13 +2,13 @@
 
 def highest_student_gpa
 SELECT MAX(gpa)
-FROM students
+FROM students;
 # WHERE condition;
 end
 
 def lowest_student_gpa
   SELECT MIN(gpa)
-  FROM students 
+  FROM students; 
 end
 
 def average_student_gpa
