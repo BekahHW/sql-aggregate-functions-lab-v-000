@@ -2,8 +2,8 @@
 
 def highest_student_gpa
 SELECT MAX(gpa)
-FROM table_name
-WHERE condition;
+FROM students
+# WHERE condition;
 end
 
 def lowest_student_gpa
